@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>Insert SVG...</_name>
+  <id>com.francescosantini.insertSVG</id>
+  <dependency type="executable" location="extensions">insertSVG.py</dependency>
+  <dependency type="executable" location="extensions">inkex.py</dependency>
+  <param name="file" type="string" _gui-text="Input file (full path)">file.svg</param>
+  <param name="importid" type="string" _gui-text="SVG ID">rect1234</param>
+  <effect>
+    <object-type>all</object-type>
+    <effects-menu>
+       <submenu _name="Link SVG"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command reldir="extensions" interpreter="python">insertSVG.py</command>
+  </script>
+</inkscape-extension>
