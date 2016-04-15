@@ -11,7 +11,7 @@ Under Linux it would be something like:
     /usr/share/inkscape/extensions
 or (locally):
 
-    ~/.config/inkscapte/extensions
+    ~/.config/inkscape/extensions
 
 ## Usage ##
 
